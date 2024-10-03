@@ -15,13 +15,19 @@ remove_item : remove the Grocery Item Object from the Grocery List
 update_item : update the Grocery Item Object to control quantity
 display_items : print all groceries on current Grocery List 
 print_pdf : print all groceries on PDF file
-
+* Private :
+vector<GroceryItem> items : a variable called vector-type items that can store multiple GroceryItem objects
 
 Component:
 Grocery Item
 
 Overall Functionality:
 to sotre items as individual dbjects in Grocery List
+
+State
+name(string) : name of grocery
+quantity(float) : amount of grocery
+unit(string) : quantity kind
 
 Method Descriptions:
 * Public :
